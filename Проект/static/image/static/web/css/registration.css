@@ -1,0 +1,28 @@
+.card {
+       width: 19.5rem;
+       height: 18rem;
+       margin-left: 60rem;
+       margin-top: -400px;
+       background-color: #088A08;
+       padding: -10px;
+       border-radius: 15px;
+       }
+
+.error {
+        margin-top: 2rem;
+        margin-left: 28.3rem;
+        color: red;
+        }
+
+h4 {
+     color: white;
+     }
+
+.cardd {
+        background-color: #00a309;
+        width: 17rem;
+        height: 13rem;
+        border-radius: 15px;
+        }
+
+form {color: white;}

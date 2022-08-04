@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<style>
+    @import url('/static/css/entrance.css')
+</style>
+<div class="card">
+    <div class="card-body">
+        <form action="" method="post" novalidate>
+            <h3 align="center">
+                Войти в аккаунт
+            </h3>
+            <div class="cardd">
+                <div class="card-boby">
+                    <form action="" method="post" novalidate>
+                        {{ form.hidden_tag() }}
+                        {{ error }}
+                        <p>{{ form.email.label() }}<br>
+                            {{ form.email }}
+                        </p>
+                        <p>
+                            {{ form.password.label() }}<br>
+                            {{ form.password }}
+                        </p>
+                        <p>{{ form.rec }}</p>
+                        <p>{{ form.submit }}</p>
+                        <p>{{ form.reg }}</p>
+                    </form>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}

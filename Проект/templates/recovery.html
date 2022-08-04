@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<style>
+    @import url('/static/css/recovery.css')
+</style>
+<div class="card">
+    <div class="card-body">
+        <form action="" method="post" novalidate>
+            <h3>Ввостановление аккаунта</h3>
+            <div class="cardd">
+                <div class="card-body">
+                    <form action="" method="post" novalidate>
+                        {{ form.csrf_token }}
+                        {{error}}
+                        <p>{{form.email.label()}}</p>
+                        <p>{{ form.email}}</p>
+                        <p>{{ form.submit }}</p>
+                    </form>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,17 @@
+.error {color: red;
+        margin: auto;}
+
+.head {
+       margin-left: 0px;
+       margin-top: 0px;
+       height: 88px;
+       width: 120px;
+       }
+
+.form-control {
+               background-color: #00a309;
+               height: 100px;
+               }
+
+.container {
+            margin-left: -13px;}

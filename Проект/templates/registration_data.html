@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<style>
+    @import url('/static/css/reg_data.css')
+</style>
+<div class="error">{{error}}</div>
+<div class="card">
+    <div class="card-body">
+        <form action="" method="post" novalidate>
+            <h2>Введите данные</h2>
+            <div class="cardd">
+                <div class="card-body">
+                    <form action="" method="post" novalidate>
+                        {{ form.csrf_token }}
+                       <p>{{ form.name.label() }}<br>
+                           {{ form.name }}</p>
+                       <p>{{ form.surname.label() }}<br>
+                           {{ form.surname }}</p>
+                        <p></p>
+                        <label>Придумайет пароль латинскими буквами<br>
+                               Разных регистров,<br>
+                               Включающий в себя как-нибудь из данных символов<br>
+                               '1234567890!"№;%:?*()_+-=#$^&?/,.\/\|'
+                        </label>
+                        <p>{{ form.password.label() }}<br>
+                            {{ form.password }}</p>
+                        <p>{{ form.pass_exam.label() }}<br>
+                            {{ form.pass_exam }}</p>
+                        <p>{{ form.submit }}</p>
+                    </form>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}

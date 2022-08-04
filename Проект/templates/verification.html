@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<style>
+    @import url('/static/css/ver.css')
+</style>
+<h2>
+    Письмо отправлено на {{ sec_email }}
+</h2>
+<div class="card">
+    <div class="card-body">
+        <form action="" method="post" novalidate>
+            <h4>Подтверждение почты</h4>
+            <div class="cardd">
+                <div class="card-body">
+                    <form action="" method="post" novalidate>
+                        {{ form.csrf_token }}
+                        <p>
+                          {{ form.code_str.label() }}<br>
+                          {{ form.code_str }}
+                        </p>
+                        <div class="error">
+                            {{ error }}
+                        </div>
+                        <p>
+                            {{ form.submit }}
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}

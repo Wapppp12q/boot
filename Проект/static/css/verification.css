@@ -1,0 +1,26 @@
+h4 {color: white;}
+
+h2 {
+    margin-left: 35rem;
+    margin-top: 100px;
+    width: 800px;
+    height: 30px;}
+
+.card {
+       width: 18rem;
+       height:17rem;
+       margin-left: 50rem;
+       margin-top: 100px;
+       background-color: #088A08;
+       padding: -10px;
+       }
+
+.cardd {
+        background-color: #00a309;
+        width: 15rem;
+        height: 10rem;
+        padding: 8px;
+        }
+
+form {color: white;}
+

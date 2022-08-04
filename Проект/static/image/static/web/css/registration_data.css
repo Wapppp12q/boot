@@ -1,0 +1,20 @@
+h2 {
+    color: white;
+    }
+
+.card {
+       width: 19.5rem;
+       height: 40rem;
+       margin-left: 50rem;
+       margin-top: 100px;
+       background-color: #088A08;
+       padding: -10px;
+       }
+
+.cardd {
+        background-color: #00a309;
+        width: 17rem;
+        height: 35rem
+        }
+
+form {color: white;}

@@ -1,0 +1,23 @@
+h3 {
+    color: white;
+    }
+
+.card {
+       width: 19.5rem;
+       height: 25rem;
+       margin-left: 50rem;
+       margin-top: 200px;
+       background-color: #088A08;
+       padding: -10px;
+       border-radius: 15px;
+       }
+
+.cardd {
+        background-color: #00a309;
+        width: 17rem;
+        height: 19rem;
+        padding: 8px;
+        border-radius: 15px;
+        }
+
+form {color: white;}
