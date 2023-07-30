@@ -1,0 +1,139 @@
+/** {
+    margin: 0;
+	padding: 0;
+    border: 1px solid white;
+}*/
+
+html {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    position: relative;
+    height: 100%;
+    margin: 0;
+    color: white;
+    background-color: #191717;
+}
+
+.cap {
+    position: absolute;
+    top: -20px;
+    right: 0;
+    left: 0;
+    height: 100px;
+    width: 100%
+}
+
+.boot_icon {
+    margin-top: -245px;
+    margin-left: -200px;
+    transform: scale(10%);
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    line-height: 300px;
+    color: rgba(255,255,255,0.7);
+    font-family: 'Anton', sans-serif;
+}
+
+#line_for_elem_link_symbols {
+    display: inline-block;
+}
+
+.elem_for_symbol_link {
+    height: 60px;
+    width: 30px;
+    border: 1px solid white;
+    float: left;
+    margin-left: 10px;
+    border-radius: 7px;
+    padding: auto;
+}
+
+#copy {
+    background: inherit;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    cursor: pointer;
+}
+
+#billet {
+    width: 150px;
+    height: 30px;
+    border-radius: 7px;
+    position: relative;
+}
+
+#Download_icon {
+    margin-left: 40%
+}
+
+#loading_text {
+    color: rgba(255,255,255,0.7);
+    margin-left: 5px;
+}
+
+.addfile {
+    content: '';
+    opacity:0;
+    border-radius: 7px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.addfile::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+footer {
+    position: absolute;
+    float: left;
+    height: 40px;
+    width: 100%;
+    bottom:  0px;
+    display: flex;
+    justify-content: center;
+}
+
+footer #rights {
+    text-align: center;
+    color: white;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.z-20 {
+    z-index: 20;
+}
+
+.z-30 {
+    z-index: 30;
+}
+
+.bg-footer-cap {
+    background-color: #0E0D0D;
+}
+
+.box-shadow {
+   box-shadow: 0 0 20px rgba(255,255,255,0.6);
+}
+
+.float_lt {
+    float: left;
+}
+
+.mrg-top-6{
+    margin-top: 6px;
+}

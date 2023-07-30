@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Boot</title>
+    <link type="image/x-icon" href="./static/images/favicon.ico" rel="shortcut icon">
+    <link type="Image/x-icon" href="./static/images/favicon.ico" rel="icon">
+    <style>
+        @import url('/static/css/main.css')
+    </style>
+</head>
+<body>
+    <script src="./static/js/main.js"></script>
+
+    <div class="cap z-20 bg-footer-cap">
+        <img src="./static/images/boot_icon.png" class="boot_icon z-30">
+    </div>
+
+    <h1>
+        Hi, this site created for quickly forwarding files
+    </h1>
+
+    <center>
+        <div id="line_for_elem_link_symbols">
+            <button id="copy" onclick="Click();" value="{{ response }}"><img src="./static/images/copy_icon.png"></button>
+            <div class="elem_for_symbol_link">
+                <center>
+                    <div class="symbol">
+                        {{ response[0] }}
+                    </div>
+                </center>
+            </div>
+            <div class="elem_for_symbol_link">
+                <div class="symbol">
+                    {{ response[1] }}
+                </div>
+            </div>
+            <div class="elem_for_symbol_link">
+                <div class="symbol">
+                    {{ response[2] }}
+                </div>
+            </div>
+            <div class="elem_for_symbol_link">
+                <div class="symbol">
+                    {{ response[3] }}
+                </div>
+            </div>
+            <div class="elem_for_symbol_link">
+                <div class="symbol">
+                    {{ response[4] }}
+                </div>
+            </div>
+            <div class="elem_for_symbol_link">
+                <div class="symbol">
+                    {{ response[5] }}
+                </div>
+            </div>
+            <div class="elem_for_symbol_link">
+                <div class="symbol">
+                    {{ response[6] }}
+                </div>
+            </div>
+            <div class="elem_for_symbol_link">
+                <div class="symbol">
+                    {{ response[7] }}
+                </div>
+            </div>
+            <div class="elem_for_symbol_link">
+                <div class="symbol">
+                    {{ response[8] }}
+                </div>
+            </div>
+            <div class="elem_for_symbol_link">
+                <div class="symbol">
+                    {{ response[9] }}
+                </div>
+            </div>
+            <div class="elem_for_symbol_link">
+                <div class="symbol">
+                    {{ response[10] }}
+                </div>
+            </div>
+
+
+        </div>
+    </center>
+
+    <center>
+        <div id="billet" class="box-shadow">
+            <center>
+                <img src="./static/images/Download_icon.png" id="Download_icon" class="float_lt mrg-top-6">
+                <div id="loading_text" class="float_lt mrg-top-6">
+                    Загрузка
+                </div>
+            </center>
+            <input type="file" class="addfile">
+        </div>
+    </center>
+
+    <footer class="bg-footer-cap">
+        <div id="rights">
+            All rights reserved &copy;
+            <script language="javascript" type="text/javascript"><!--
+                var d = new Date();
+                document.write(d.getFullYear());
+            </script>
+        </div>
+    </footer>
+</body>
+</html>
